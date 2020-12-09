@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+p{
+    font-family: sans-serif;
+}
+header{
+    background-color: black;
+    line-height: 50px;
+}
+header p{
+    color: white;
+
+}
+.container .row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.row{
+    width: 100%;
+}
+.col-5{
+    width: 40%;
+}
+.col-7{
+    width: 60%;
+}
+.container .row .col-5 input{
+    width: 100%;
+    height: 20px;
+}
+
+.btn{
+    
+    height: 50px;
+    display: inline-block;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 7px;
+}
+.btn.one{
+    width: 150px;
+    background-color: blue;
+}
+.btn.two{
+    width: 100px;
+    background-color: cadetblue;
+}
+table{
+    margin: auto;
+    border: 1px solid black;
+}
+table thead tr td{
+    width: 100px;
+}
+thead{
+    width: 100%;
+}
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+span{
+    color: red;
+}
+
+th, td{
+    width: 15%;
+}
